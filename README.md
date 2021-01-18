@@ -93,7 +93,6 @@ I've chosen not to do this as it causes the site to zoom in frequently while tap
 - [x] add favicon to `./src/assets`
 - [x] add to netlify
 - [x] add netlify badge to project
-- [x] inline alpine
 - [x] add gosquared analytics
 - [x] add url to Lighthouse in Accessibility
 - [x] add url to WAVE in Accessibility

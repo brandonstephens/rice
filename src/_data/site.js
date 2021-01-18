@@ -6,5 +6,5 @@ module.exports = {
   title: 'Rice Calculator',
   description: 'Rice calculator for electric pressure cookers.',
   themeColor: '#FBBF24',
-  bgColor: '#334155',
+  bgColor: '#F5F5F4',
 }
