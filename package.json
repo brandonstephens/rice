@@ -22,6 +22,7 @@
   "license": "ISC",
   "devDependencies": {
     "@11ty/eleventy": "^0.11.0",
+    "@tailwindcss/forms": "^0.2.1",
     "@tailwindcss/typography": "^0.4.0",
     "autoprefixer": "^10.1.0",
     "gulp": "^4.0.2",

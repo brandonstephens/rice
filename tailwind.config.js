@@ -16,5 +16,5 @@ module.exports = {
       scale: ['active'],
     },
   },
-  plugins: [require('@tailwindcss/typography')],
+  plugins: [require('@tailwindcss/typography'), require('@tailwindcss/forms')],
 }

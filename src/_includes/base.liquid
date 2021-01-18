@@ -11,18 +11,26 @@
     <meta name="theme-color" content="{{ site.themeColor }}" />
     <meta name="background-color" content="{{ site.bgColor }}" />
     <!-- <link rel="shortcut icon" href="/assets/favicon.png" type="image/png" /> -->
+    <link
+      rel="icon"
+      href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🍚</text></svg>"
+    />
     <!-- <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png" /> -->
     <link rel="stylesheet" href="/styles/styles.css" inline />
     <script>
       {% include _localStorage.js %}
     </script>
+    <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.8.0/dist/alpine.min.js" defer></script>
   </head>
-  <body id="body" class="bg-coolGray-100 dark:bg-warmGray-800">
+  <body
+    id="body"
+    class="bg-warmGray-100 dark:bg-warmGray-800 text-warmGray-600 dark:text-warmGray-300 md:text-2xl font-light"
+  >
     <nav class="flex justify-end max-w-4xl mx-auto px-4 mt-10">
       <button
         id="theme"
         title="theme"
-        class="bg-white dark:bg-warmGray-600 hover:bg-amber-500 dark:hover:bg-amber-500 rounded-md shadow-sm px-4 py-2"
+        class="bg-white dark:bg-warmGray-600 hover:bg-amber-400 rounded-md shadow-sm px-4 py-2"
       >
         <span id="label">🌑</span> <span class="sr-only">toggle theme</span>
       </button>
@@ -32,18 +40,18 @@
       {{ content | safe }}
     </main>
 
-    <footer class="text-gray-500 max-w-4xl mx-auto px-4">
+    <footer class="max-w-4xl mx-auto px-4">
       <p>
         Made by
         <a
-          class="text-coolGray-800 dark:text-coolGray-200 hover:text-amber-500 border-b-2 border-amber-500 dark:border-amber-800"
+          class="text-warmGray-800 dark:text-warmGray-100 hover:text-amber-500 dark:hover:text-amber-400 border-b-2 border-amber-500 dark:border-amber-800"
           href="{{ site.authorUrl }}"
           >{{ site.author }}</a
         >. If you find this project useful you can
         <a
-          class="text-coolGray-800 dark:text-coolGray-200 hover:text-amber-500 border-b-2 border-amber-500 dark:border-amber-800"
+          class="text-warmGray-800 dark:text-warmGray-100 hover:text-amber-500 dark:hover:text-amber-400 border-b-2 border-amber-500 dark:border-amber-800"
           href="https://ko-fi.com/G2G33AMQO"
-          >Donate</a
+          >donate</a
         >.
       </p>
     </footer>

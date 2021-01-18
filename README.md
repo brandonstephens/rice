@@ -68,7 +68,8 @@ I've chosen not to do this as it causes the site to zoom in frequently while tap
 ## 📚 References
 
 - [eleventy](https://www.11ty.dev)
-- [tailwind css](https://tailwindcss.com)
+- [tailwindcss](https://tailwindcss.com)
+- [alpinejs](https://github.com/alpinejs/alpine)
 - [gulp](https://gulpjs.com)
 - [liquid](https://liquidjs.com)
 - [nvm](https://github.com/nvm-sh/nvm)
@@ -77,12 +78,12 @@ I've chosen not to do this as it causes the site to zoom in frequently while tap
 
 - [x] replace name in readme
 - [x] add copy instructions
-- [ ] add ratio components
-- [ ] try alpine and add inputs to update ratio
-- [ ] style it
-- [ ] update site name in `./src/_data/site.js`
-- [ ] add apple touch icon to `./src/assets`
-- [ ] add favicon to `./src/assets`
+- [x] add ratio components
+- [x] try alpine and add inputs to update ratio
+- [x] style it
+- [x] update site name in `./src/_data/site.js`
+- [x] add apple touch icon to `./src/assets`
+- [x] add favicon to `./src/assets`
 - [ ] add to netlify
 - [ ] add netlify badge to project
 - [ ] add url to Lighthouse in Accessibility
