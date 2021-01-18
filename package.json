@@ -1,5 +1,5 @@
 {
-  "name": "L1T_STACK",
+  "name": "rice_calculator",
   "version": "1.0.0",
   "description": "Liquid, 11ty, Tailwind stack",
   "scripts": {

@@ -1,6 +1,6 @@
-# 🔥 L1T Stack
+# 🍚 Rice Calculator
 
-Liquid, 11ty, Tailwind stack.
+Rice calculator for electric pressure cookers.
 
 ## 💾 Installation
 
@@ -75,12 +75,17 @@ I've chosen not to do this as it causes the site to zoom in frequently while tap
 
 ## 🗺 Roadmap
 
-- [ ] replace name in readme
-- [ ] add url to Lighthouse in Accessibility
-- [ ] add url to WAVE in Accessibility
+- [x] replace name in readme
+- [ ] add ratio
+- [ ] add copy instructions
+- [ ] try alpine and add inputs to update ratio
 - [ ] update site name in `./src/_data/site.js`
 - [ ] add apple touch icon to `./src/assets`
 - [ ] add favicon to `./src/assets`
+- [ ] add to netlify
+- [ ] add url to Lighthouse in Accessibility
+- [ ] add url to WAVE in Accessibility
+- [ ] add gosquared analytics
 
 ---
 
