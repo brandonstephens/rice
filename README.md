@@ -76,6 +76,12 @@ I've chosen not to do this as it causes the site to zoom in frequently while tap
 - [liquid](https://liquidjs.com)
 - [nvm](https://github.com/nvm-sh/nvm)
 
+## 👾 Icons
+
+Icons and hero image made using [Figma](https://www.figma.com).
+
+[Design Document](https://www.figma.com/file/TxJWue2YOsNqeZuCJSC1uP/Rice?node-id=2%3A31)
+
 ## 🌎 Hosting
 
 - CI & Hosting on [Netlify](https://www.netlify.com).
